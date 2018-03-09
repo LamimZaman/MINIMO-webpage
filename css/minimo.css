@@ -1,0 +1,179 @@
+*{margin: 0;
+  padding: 0}
+
+body{font-family: 'Playfair Display', serif;
+     color: #8C8C8C; }
+
+
+.commom_margin{margin-top: 40px;}
+.header {overflow: hidden;
+}
+
+.wrapper {width: 80%;
+          margin: 0 auto;
+}
+
+.logo {float: left;
+       width: 20%;
+       font-size: 36px;
+       font-weight: 100;
+    
+}
+.logo h1{font-family: 'Inconsolata', monospace;
+
+    text-transform: uppercase;
+         color: #2D2D2D;
+         font-size: 36px;
+         font-weight: 100;
+         letter-spacing: 5px;
+}
+.caption{text-transform: uppercase;
+         letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+          }
+
+.menu {float: right;
+      width: 70%;
+       
+}
+.menu ul{list-style: none;
+         float: right;}
+.menu ul li{float: left;}
+.menu ul li a{text-decoration: none;
+              text-transform: uppercase;
+              display: block;
+              padding: 20px 30px;
+            font-size: 18px;}
+.menu ul li:last-child a{padding-right: 0px;}
+.menu ul li a:hover{color: black;}
+
+
+
+
+
+
+
+
+
+.slider {overflow: hidden;
+}
+.slider img{
+    width: 100%;
+}
+
+.introduction-box {overflow: hidden;
+}
+
+.intro {padding: 0px 65px;
+}
+.intro h1{font-size: 40px;
+           font-weight: 100;
+           margin-top: 35px;}
+.intro p{font-size: 20px;
+         line-height: 35px;
+         padding: 25px 0px;
+         }
+
+
+
+
+.description-box {overflow: hidden;
+}
+
+.blog {
+}
+
+.single_blog {width: 40%;
+             float: left; 
+              margin: 65px 43px;
+             
+}
+
+.blog_thumb {
+}
+.blog_thumb img{width: 100%;}
+
+.blog_data {margin-top: 20px;
+}
+.blog_data h1{font-size: 40px;
+font-weight: 100
+
+}
+.blog_data p{font-size: 20px;
+             word-spacing: 5px;
+              text-align: justify;
+                padding: 10px 0px;}
+
+.newsletter {overflow: hidden;
+         background-color: #F3F3F3;
+}
+
+.letter-form {text-align: center;
+              padding: 80px 0px;
+}
+.letter-form h1{color: #2D2D2D;
+                font-size: 40px;
+               padding: 20px 0px;}
+
+
+.letter-form form {position: relative;
+                   width: 445px;
+                    margin: 0 auto;}
+.letter-form form input{width: 435px;
+                        height: 40px;
+                        border: none;
+    background: transparent;
+    font-size: 24px;
+    
+    
+                       border-bottom:1px solid black;}
+.letter-form form button{position: absolute;
+            background-color: transparent;
+            border: none;
+           right: 4px;
+        top: 10px;
+    
+}
+
+.lifestyle-section {overflow: hidden;
+}
+
+.lifestyle-blog {
+}
+
+.load.more {text-align: center;
+            padding: 45px 0px;
+}
+
+.load_more_btn {background-color: transparent;
+                text-transform: capitalize;
+                border: 2px solid gray;
+                font-size: 21px;
+               padding: 15px 30px;}
+
+.footer {overflow: hidden;
+        background-color: #F3F3F3;
+}
+
+.footercontent {margin-bottom: 30px;
+}
+
+.leftinfo {float: left;
+           width: 50%;
+          padding-bottom: 30px;
+}
+.leftinfo ul,.rightinfo ul{list-style: none;}
+.leftinfo ul li,.rightinfo ul li{float: left;}
+.leftinfo ul li a,.rightinfo ul li a{text-decoration: none;
+                                    font-size: 20px;
+    padding: 15px;
+    color: #474747;
+    display: block;}
+.rightinfo ul{float: right;}
+                                      
+.rightinfo {float: right;
+            width: 50%;
+}
+
